@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Café & Prosa | Livraria e Cafeteria</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..700;1,400..700&family=Poppins:wght@300;400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="header.css" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="main-header">
+      <a href="#" class="logo">
+        <span class="logo-icon">☕📖</span>
+        <span class="logo-text">Café & <em>Prosa</em></span>
+      </a>
+
+      <input
+        type="checkbox"
+        id="menu-toggle"
+        class="menu-toggle-checkbox"
+        aria-label="Alternar Menu"
+      />
+      <label for="menu-toggle" class="menu-toggle-btn">
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+        <span class="hamburger-bar"></span>
+      </label>
+
+      <nav class="main-nav">
+        <ul class="nav-list">
+          <li><a href="#hero" class="nav-link active">Início</a></li>
+          <li><a href="#destaques" class="nav-link">Destaques</a></li>
+          <li><a href="#sobre" class="nav-link">Sobre Nós</a></li>
+          <li><a href="#contato" class="nav-link">Contato & Horários</a></li>
+        </ul>
+      </nav>
+
+      <a href="#destaques" class="btn-header">Ver Cardápio</a>
+    </header>
+
+    <main>
+      <section id="hero" class="hero-section">
+        <span class="hero-subtitle"
+          >O encontro perfeito entre aroma e literatura</span
+        >
+        <h1 class="hero-title">
+          Um bom café, um bom livro e o tempo a seu favor.
+        </h1>
+        <p class="hero-description">
+          Descubra um refúgio acolhedor onde grãos selecionados e grandes
+          histórias se encontram. Venha saborear nossos cafés especiais enquanto
+          explora nossa curadoria literária.
+        </p>
+        <div class="hero-buttons">
+          <a href="#destaques" class="btn btn-primary">Conheça Nossos Combos</a>
+          <a href="#sobre" class="btn btn-secondary">Nossa História</a>
+        </div>
+      </section>
+
+      <section id="destaques" class="highlights-section">
+        <header class="section-header">
+          <span class="section-tag">Recomendações da Casa</span>
+          <h2 class="section-title">Combos de Café & Literatura</h2>
+          <p class="section-description">
+            Harmonizações perfeitas de bebidas artesanais e leituras
+            inesquecíveis preparadas para o seu momento de pausa.
+          </p>
+        </header>
+
+        <div class="cards-grid">
+          <article class="card">
+            <span class="card-badge">Mais Pedido</span>
+            <img
+              src="https://images.unsplash.com/photo-1509042239860-f550ce710b93?auto=format&fit=crop&w=600&q=80"
+              alt="Espresso Duplo e Livro Clássico"
+              class="card-img"
+            />
+            <div class="card-body">
+              <span class="card-category">Combo Clássico</span>
+              <h3 class="card-title">Espresso Intenso & Romance Histórico</h3>
+              <p class="card-text">
+                Um espresso duplo de grãos de torra média-escura acompanhado de
+                um livro clássico à sua escolha em nossa estante vintage.
+              </p>
+              <div class="card-footer">
+                <span class="card-price">R$ 38,00</span>
+                <a href="#contato" class="btn-card">Pedir no Balcão</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card-badge">Especial</span>
+            <img
+              src="https://images.unsplash.com/photo-1517256064527-09c73fc73e38?auto=format&fit=crop&w=600&q=80"
+              alt="Cappuccino Cremoso com Canela e Livro de Poesia"
+              class="card-img"
+            />
+            <div class="card-body">
+              <span class="card-category">Combo Tarde Aconchegante</span>
+              <h3 class="card-title">Cappuccino Cremoso & Poesia</h3>
+              <p class="card-text">
+                Cappuccino polvilhado com canela do Ceilão, acompanhado de broas
+                de fubá artesanais e uma antologia poética contemporânea.
+              </p>
+              <div class="card-footer">
+                <span class="card-price">R$ 42,00</span>
+                <a href="#contato" class="btn-card">Pedir no Balcão</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="card">
+            <span class="card-badge">Refrescante</span>
+            <img
+              src="https://images.unsplash.com/photo-1517701604599-bb29b565090c?auto=format&fit=crop&w=600&q=80"
+              alt="Cold Brew Gelado e Livro de Suspense"
+              class="card-img"
+            />
+            <div class="card-body">
+              <span class="card-category">Combo Verão</span>
+              <h3 class="card-title">Cold Brew Cítrico & Suspense</h3>
+              <p class="card-text">
+                Café extraído a frio por 18 horas com toques de laranjeira,
+                acompanhado por um bestseller de mistério envolvente.
+              </p>
+              <div class="card-footer">
+                <span class="card-price">R$ 45,00</span>
+                <a href="#contato" class="btn-card">Pedir no Balcão</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section id="sobre" class="about-section">
+        <figure class="about-image-frame">
+          <img
+            src="https://images.unsplash.com/photo-1521017432531-fbd92d768814?auto=format&fit=crop&w=800&q=80"
+            alt="Ambiente interno da Livraria e Cafeteria"
+            class="about-img"
+          />
+          <figcaption class="experience-badge">
+            <span class="exp-years">10+</span>
+            <span class="exp-text">Anos de Histórias e Cafés</span>
+          </figcaption>
+        </figure>
+
+        <article class="about-content">
+          <span class="section-tag">Nossa Alma</span>
+          <h2 class="section-title text-left">
+            Mais que uma cafeteria, um refúgio para a mente
+          </h2>
+          <p class="about-text">
+            O <strong>Café & Prosa</strong> nasceu do sonho de unir duas das
+            maiores paixões humanas: o aroma reconfortante de um café
+            recém-passado e o prazer imersivo de se perder nas páginas de um bom
+            livro.
+          </p>
+          <p class="about-text">
+            Trabalhamos exclusivamente com microlotes de produtores locais,
+            garantindo sustentabilidade e uma experiência sensorial única.
+            Nossas estantes abrigam desde clássicos atemporais até lançamentos
+            da literatura independente.
+          </p>
+
+          <ul class="about-features">
+            <li class="feature-item">
+              <span class="feature-icon">🌱</span>
+              <div class="feature-info">
+                <h4>Grãos Selecionados</h4>
+                <p>100% Arábica de torra artesanal própria.</p>
+              </div>
+            </li>
+            <li class="feature-item">
+              <span class="feature-icon">📚</span>
+              <div class="feature-info">
+                <h4>Curadoria Literária</h4>
+                <p>Livros escolhidos com carinho por bibliófilos.</p>
+              </div>
+            </li>
+            <li class="feature-item">
+              <span class="feature-icon">🛋️</span>
+              <div class="feature-info">
+                <h4>Ambiente Acolhedor</h4>
+                <p>
+                  Poltronas confortáveis, música suave e silêncio produtivo.
+                </p>
+              </div>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <footer id="contato" class="main-footer">
+      <section class="footer-grid">
+        <div class="footer-col">
+          <a href="#" class="footer-logo">
+            <span class="logo-icon">☕📖</span>
+            <span class="logo-text">Café & <em>Prosa</em></span>
+          </a>
+          <p class="footer-about">
+            Seu espaço de aconchego, literatura e cafés especiais no coração da
+            cidade. Venha nos visitar e viva esse momento.
+          </p>
+          <nav class="social-links">
+            <a
+              href="https://www.instagram.com/fho_oficial"
+              class="social-btn"
+              aria-label="Instagram"
+              >Instagram</a
+            >
+            <a href="#" class="social-btn" aria-label="Facebook">Facebook</a>
+            <a href="#" class="social-btn" aria-label="WhatsApp">WhatsApp</a>
+          </nav>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Horário de Funcionamento</h3>
+          <ul class="hours-list">
+            <li>
+              <span>Segunda a Sexta:</span>
+              <strong>08:00 - 20:00</strong>
+            </li>
+            <li>
+              <span>Sábados:</span>
+              <strong>09:00 - 21:00</strong>
+            </li>
+            <li>
+              <span>Domingos e Feriados:</span>
+              <strong>10:00 - 18:00</strong>
+            </li>
+            <li class="highlight-hours">
+              <span>Clube do Livro:</span>
+              <strong>Última quinta do mês às 19h</strong>
+            </li>
+          </ul>
+        </div>
+
+        <div class="footer-col">
+          <h3 class="footer-heading">Onde Estamos</h3>
+          <address class="contact-info">
+            <p class="contact-item">
+              <span class="icon">📍</span> Alameda das Letras, 452 - Centro
+              Histórico
+            </p>
+            <p class="contact-item">
+              <span class="icon">📞</span> (11) 98765-4321 / (11) 3344-5566
+            </p>
+            <p class="contact-item">
+              <span class="icon">✉️</span> contato@cafeeprosa.com.br
+            </p>
+          </address>
+        </div>
+      </section>
+
+      <section class="footer-bottom">
+        <p>&copy; 2026 Café & Prosa Livraria - Todos os direitos reservados.</p>
+        <p class="designer-tag">Desenvolvido com ☕ e paixão por leitura.</p>
+      </section>
+    </footer>
+  </body>
+</html>
